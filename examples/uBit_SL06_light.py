@@ -1,4 +1,4 @@
-from uBit_xCore import*
+from uBit_core import*
 
 from xSL06_light import*
 
