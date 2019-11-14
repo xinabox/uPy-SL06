@@ -2,6 +2,8 @@ from cPy_core import*
 
 from xSL06_proximity import*
 
+from time import sleep
+
 core = xCore(0x39)  #SL06 I2C adddress
 SL06 = xSL06(core)  #Sending I2C object to SL06 lib
 
@@ -13,5 +15,5 @@ while True:
     print("Proximity")
     print(prox)
     
-    sleep(500)
+    sleep(0.5)
 
